@@ -9,6 +9,9 @@
 
 body{
     background-image: url(./images/background_image\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     color:white;
 }
 
@@ -35,4 +38,46 @@ span{
 #description{
     font-family: "Sorts Mill Goudy", serif;
     font-weight: 700;
+}
+
+.survey_form{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+}
+
+#name,#age,#email,#content,#feedback{
+    width: 100%;
+    padding: 10px;
+    margin-top: 16px;
+}
+
+.input-box{
+    margin-top: 20px;
+}
+
+textarea{
+    resize: none;
+    height: 91.46px;
+}
+
+.form_submit{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.form-button{
+    width: 160px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.form-button:hover{
+    color: red;
+    background-color: red;
 }
