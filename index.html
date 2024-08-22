@@ -13,7 +13,7 @@
             <h3 id="description">Thank you for signing up at Netflix. Tell us more about your self</h3>
         </header>
         <div class="survey_form">
-            <form action="result.html"></form>
+            <form action="result.html">
             <div class="input-box">
                 <label for="name">Name</label>
                 <br>
@@ -31,6 +31,49 @@
                 <br>
                 <input type="email" name="Email" placeholder="enter your email" id="email">
             </div>
+
+            <div class="input-box">
+                <label for="content">Content Type</label>
+                <br>
+                <select name="Content" id="content">
+                    <option value="Movie">Movie</option>
+                    <option value="Series">Series</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <label for="">Movie Type</label>
+                <br>
+                
+                <input type="checkbox" name="Movie Type1" id="comedy" value="comedy">
+                <label for="comedy">comedy</label>
+                <br>
+
+                <input type="checkbox" name="Movie Type2" id="action" value="action">
+                <label for="action">Action</label>
+                <br>
+
+                <input type="checkbox" name="Movie Type3" id="romance" value="romance">
+                <label for="romance">Romance</label>
+            </div>
+
+            <div class="input-box">
+                <label for="">Gender</label>
+                <br>
+
+                <input type="radio" name="gender" id="male" value="Male">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" name="gender" id="female" value="Female">
+                <label for="female">Female</label>
+                <br>
+                <input type="radio" name="gender" id="other" value="Other">
+                <label for="other">Other</label>
+            </div>
+
+            <input type="submit" value="Submit">
+
+        </form>
 
         </div>
 
