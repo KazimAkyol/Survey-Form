@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="container">
@@ -16,6 +16,7 @@
       </header>
       <div class="survey_form">
         <form action="result.html">
+          <!-- ---------------------------NAME--------------------------------- -->
           <div class="input-box">
             <label for="name">Name</label>
             <br />
@@ -23,27 +24,38 @@
               type="text"
               name="Name"
               placeholder="enter your name"
-              id="name" required
+              id="name"
+              required
             />
           </div>
 
+          <!-- ---------------------------AGE----------------------------------- -->
           <div class="input-box">
             <label for="age">Age</label>
             <br />
-            <input type="number" name="Age" placeholder="age" id="age" required />
+            <input
+              type="number"
+              name="Age"
+              placeholder="age"
+              id="age"
+              required
+            />
           </div>
 
+          <!-- ---------------------------EMAIL-------------------------------- -->
           <div class="input-box">
             <label for="email">Email</label>
             <br />
             <input
               type="email"
               name="Email"
-              placeholder="enter your email"
-              id="email" required
+              placeholder="enter your Email"
+              id="email"
+              required
             />
           </div>
 
+          <!-- -----------------------CONTENT------------------------------- -->
           <div class="input-box">
             <label for="content">Content Type</label>
             <br />
@@ -53,51 +65,57 @@
             </select>
           </div>
 
+          <!-- -------------------------MOVIE TYPE--------------------------- -->
           <div class="input-box">
             <label for="">Movie Type</label>
             <br />
-
+            <!-- ----------------------------------------------------------------------- -->
             <input
               type="checkbox"
-              name="Movie Type1"
+              name="Movie Type"
               id="comedy"
               value="comedy"
             />
             <label for="comedy">Comedy</label>
             <br />
-
+            <!-- ----------------------------------------------------------------------- -->
             <input
               type="checkbox"
-              name="Movie Type2"
+              name="Movie Type"
               id="action"
               value="action"
             />
             <label for="action">Action</label>
             <br />
-
+            <!-- ----------------------------------------------------------------------- -->
             <input
               type="checkbox"
-              name="Movie Type3"
+              name="Movie Type"
               id="romance"
               value="romance"
             />
             <label for="romance">Romance</label>
           </div>
 
+           <!-- ------------------------GENDER----------------------------- -->
+
           <div class="input-box">
             <label for="">Gender</label>
             <br />
-
+            <!-- ----------------------------------------------------------------------- -->
             <input type="radio" name="gender" id="male" value="Male" />
             <label for="male">Male</label>
             <br />
+            <!-- ----------------------------------------------------------------------- -->
             <input type="radio" name="gender" id="female" value="Female" />
             <label for="female">Female</label>
             <br />
+            <!-- ----------------------------------------------------------------------- -->
             <input type="radio" name="gender" id="other" value="Other" />
             <label for="other">Other</label>
           </div>
 
+          <!-- -------------------------------COMMENT---------------------- -->
           <div class="input-box">
             <label for="feedback">Feed back</label>
             <br />
@@ -107,9 +125,12 @@
               placeholder="any comment"
             ></textarea>
           </div>
+
+          <!-- --------------------------SUBMIT---------------------------------- -->
           <div class="form_submit">
             <input type="submit" value="Submit" class="form-button" />
           </div>
+          <!-- ----------------------------------------------------------------------- -->
         </form>
       </div>
     </div>
