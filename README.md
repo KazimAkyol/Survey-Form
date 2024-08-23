@@ -15,3 +15,5 @@ Project aims to create survey form within html and css.
         |----result.html 
 ```
 [Survey Form](https://kazimakyol.github.io/Survey-Form/)
+
+https://github.com/clarusway/clarusway-FS-DE-10-TR/blob/main/html-css/projects/001-survey-form/README.md#expected-outcome
